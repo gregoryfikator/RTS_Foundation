@@ -1,0 +1,13 @@
+Terrain Height: 256
+Terrain Width: 256
+Terrain Height Scale: 12.0
+Textures Count: 7
+Texture Indexes[Textures Count]: 1 2 3 4 5 6 7
+Texture Biome Heights[Textures Count]: 0.3 0.4 0.5 7.5 9.5 13.5 14.5
+Seed (default = -1): -1
+Displacement[2]: 0.0 0.0
+Frequency: 2.0
+Octaves/Layers: 4
+Amplitudes[Octaves]: 1.0 0.5 0.25 0.125
+Terrace Smoothness: 5
+Exponent: 2.75

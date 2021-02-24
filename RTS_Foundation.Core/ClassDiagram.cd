@@ -1,0 +1,352 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="ApplicationClass">
+    <Position X="14.5" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIBAAIAAAAQQAAEAACQAAAAAAIAAQAAAAAAAAEAU=</HashCode>
+      <FileName>Framework\ApplicationClass.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CPUClass">
+    <Position X="12.75" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAAAAAAQAgAAEAAQRAAAAAAAAQAAEAAAAAAAE=</HashCode>
+      <FileName>Framework\CPUClass.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="D3DClass">
+    <Position X="16.25" Y="8.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>CIAAhAIQEAAgAUhAQAMEQSUBAAAiEAhABAAAGAAABAI=</HashCode>
+      <FileName>Framework\D3DClass.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FPSClass">
+    <Position X="14.5" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAgAQAAAAEACAAAAAAAAAAAAAAQAAQAAAE=</HashCode>
+      <FileName>Framework\FPSClass.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FrustumClass">
+    <Position X="18.25" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAiAAiAAAAAgAAAAAAAAAAAQAAAAAAEAAAAAQAAAA=</HashCode>
+      <FileName>Framework\FrustumClass.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InputClass">
+    <Position X="20" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAAAAgwAAARgBAxAAQBIgAAAAIGAAAABIGAE=</HashCode>
+      <FileName>Framework\InputClass.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ModelListClass">
+    <Position X="25.25" Y="12.25" Width="1.5" />
+    <NestedTypes>
+      <Struct Name="ModelListClass::ModelInfoType" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Framework\ModelListClass.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAEAAAAQAAAAAAAQAAAAgAAAAASAQAAAAAAAA=</HashCode>
+      <FileName>Framework\ModelListClass.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PositionClass">
+    <Position X="21.75" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAgwgJBAACCCAAAkACBABxAAQAEAYkgIYAAAAAAgABI=</HashCode>
+      <FileName>Framework\PositionClass.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SystemClass">
+    <Position X="12.75" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAAAAAQAACAAAAQAAgYAAAABAAAAgBAAAAAM=</HashCode>
+      <FileName>Framework\SystemClass.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TextureManagerClass">
+    <Position X="25.25" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAACAAQCAUAAAAAAAQAAAQAAAAAAAAAAACAIEAA=</HashCode>
+      <FileName>Framework\TextureManagerClass.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TimerClass">
+    <Position X="11" Y="13" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAABAAgAAAAQAAIAAAAAAAAABAAAAACAAAAAAQAAE=</HashCode>
+      <FileName>Framework\TimerClass.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UIClass">
+    <Position X="23.5" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIgIEAFgJgIAAQgAIwAQASQARQACCFAQABBABBBAAQE=</HashCode>
+      <FileName>Framework\UIClass.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ZoneClass">
+    <Position X="18.25" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AoAgAAiAACAIAYAAAAAAAQAAAAQAAAAIAJAAIAAAQQE=</HashCode>
+      <FileName>Framework\ZoneClass.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ColorShaderClass">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAABAAAQAAAAAEAQAAEAAAAAAAABIAAAAACAA=</HashCode>
+      <FileName>Framework\Shaders\ColorShaderClass.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LightShaderClass">
+    <Position X="4" Y="2.25" Width="1.5" />
+    <NestedTypes>
+      <Struct Name="LightShaderClass::CameraBufferType" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Framework\Shaders\LightShaderClass.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+      <Struct Name="LightShaderClass::LightBufferType" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Framework\Shaders\LightShaderClass.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAgoQAAAABQAAQAAAAAEAQAAEAAAAAAAABAAACAAAAA=</HashCode>
+      <FileName>Framework\Shaders\LightShaderClass.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MultiTextureShaderClass">
+    <Position X="9.5" Y="1.25" Width="1.5" />
+    <NestedTypes>
+      <Struct Name="MultiTextureShaderClass::MatrixBufferType" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Framework\Shaders\MultiTextureShaderClass.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAgJAAAAABAAAQAAAAAEAQAAEAAAAAAAABIAAAAAAAA=</HashCode>
+      <FileName>Framework\Shaders\MultiTextureShaderClass.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ShaderClass">
+    <Position X="6" Y="0.5" Width="1.5" />
+    <NestedTypes>
+      <Struct Name="ShaderClass::MatrixBufferType" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Framework\Shaders\ShaderClass.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAARIAAAgGAUAAEACAIAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Framework\Shaders\ShaderClass.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FontShaderClass">
+    <Position X="11.25" Y="0.5" Width="1.5" />
+    <NestedTypes>
+      <Struct Name="FontShaderClass::PixelBufferType" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Framework\Shaders\FontShaderClass.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAgIAAEAABAAAQAAAAAEBQACEAAAAAAAABAAAAAAAAA=</HashCode>
+      <FileName>Framework\Shaders\FontShaderClass.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ShaderManagerClass">
+    <Position X="6" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAAAAIQAgAAAAAQEACgAABAAACAACIAAIAAA=</HashCode>
+      <FileName>Framework\Shaders\ShaderManagerClass.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TerrainShaderClass">
+    <Position X="2.25" Y="1.25" Width="1.5" />
+    <NestedTypes>
+      <Struct Name="TerrainShaderClass::MatrixBufferType" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Framework\Shaders\TerrainShaderClass.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+      <Struct Name="TerrainShaderClass::LightBufferType" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Framework\Shaders\TerrainShaderClass.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+      <Struct Name="TerrainShaderClass::BiomHeightBufferType" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Framework\Shaders\TerrainShaderClass.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAgIQAAAABAAARAAAEAGAUgAEACAAAAAABAIAAAAAAA=</HashCode>
+      <FileName>Framework\Shaders\TerrainShaderClass.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TextureShaderClass">
+    <Position X="7.75" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgIIAAAABAAAQAAAAAEAQAAEAAAAAAAABAAAAAAEAA=</HashCode>
+      <FileName>Framework\Shaders\TextureShaderClass.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BitmapClass">
+    <Position X="15" Y="0.5" Width="1.5" />
+    <NestedTypes>
+      <Struct Name="BitmapClass::VertexType" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Framework\Models\BitmapClass.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>CCAEAQASAgABAUAQAAAQCRAAQAIACAAAABAAAACAEQA=</HashCode>
+      <FileName>Framework\Models\BitmapClass.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CameraClass">
+    <Position X="16.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAEAAAAKCCCAAEQAAAAQCAACAAQggAARAAAAAgAAA=</HashCode>
+      <FileName>Framework\Models\CameraClass.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FontClass">
+    <Position X="18.5" Y="0.5" Width="1.5" />
+    <NestedTypes>
+      <Struct Name="FontClass::FontType" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Framework\Models\FontClass.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+      <Struct Name="FontClass::VertexType" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Framework\Models\FontClass.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAESQACIgAAAQABAAAAEQAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Framework\Models\FontClass.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LightClass">
+    <Position X="20.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAhEAAAAAIQCwAgAAAAEAAAAIAAABASACEACAAAAA=</HashCode>
+      <FileName>Framework\Models\LightClass.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ModelClass">
+    <Position X="22" Y="0.5" Width="1.5" />
+    <NestedTypes>
+      <Typedef Name="ModelClass::VertexType" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Framework\Models\ModelClass.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+      <Struct Name="ModelClass::__unnamed_struct_001c_1" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Framework\Models\ModelClass.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AiAkAAAQAgACAcAQAAAQAREAAAgBAAAAABAAAACAEAA=</HashCode>
+      <FileName>Framework\Models\ModelClass.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TerrainClass">
+    <Position X="30" Y="0.5" Width="2.25" />
+    <NestedTypes>
+      <Struct Name="TerrainClass::VertexType" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Framework\Models\TerrainClass.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+      <Struct Name="TerrainClass::HeightMapType" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Framework\Models\TerrainClass.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+      <Struct Name="TerrainClass::ModelType" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Framework\Models\TerrainClass.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+      <Struct Name="TerrainClass::VectorType" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Framework\Models\TerrainClass.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>JnAgKCCYaCBAAUQUIgCRhRQgAgAAgBAECNAKiwaINGg=</HashCode>
+      <FileName>Framework\Models\TerrainClass.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TerrainTextureArrayClass">
+    <Position X="18.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAAAAAAAAAAAAQAAACgAAAAgAAABAAAAEAg=</HashCode>
+      <FileName>Framework\Models\TerrainTextureArrayClass.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TextClass">
+    <Position X="23.75" Y="0.5" Width="1.5" />
+    <NestedTypes>
+      <Struct Name="TextClass::VertexType" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Framework\Models\TextClass.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAASEBAAAUAAAAAQAQAAQAIAAiUAABAAAgAQEAA=</HashCode>
+      <FileName>Framework\Models\TextClass.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TextureArrayClass">
+    <Position X="16.75" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAgAAQAAAAAAAQAAAAgAAAAAAAAAAAAQAAg=</HashCode>
+      <FileName>Framework\Models\TextureArrayClass.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TextureClass">
+    <Position X="20.25" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABQACAAAAIQAAAAAAAQAAACAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Framework\Models\TextureClass.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MathHelperClass">
+    <Position X="11" Y="11" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAAAAAAAAAAAAAAAAAAAgAAAAAgAAAAAAAAA=</HashCode>
+      <FileName>Framework\Helpers\MathHelperClass.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SettingsHelperClass">
+    <Position X="11" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAgAAAAACAABAAEAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Framework\Helpers\SettingsHelperClass.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

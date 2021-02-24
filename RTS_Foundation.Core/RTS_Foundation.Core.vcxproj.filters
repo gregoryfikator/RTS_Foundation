@@ -1,0 +1,316 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Framework">
+      <UniqueIdentifier>{05b91eb2-42f6-4d82-b30b-2cd113b75282}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Framework">
+      <UniqueIdentifier>{cdf8d0c3-e54d-49b7-9eb8-0b7367261bc2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Shader Files">
+      <UniqueIdentifier>{2c63190a-5263-4658-be6d-1db70ced24d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Model Files">
+      <UniqueIdentifier>{5e292150-c20a-41a5-8f16-9e167c9d2f2b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Framework\Shaders">
+      <UniqueIdentifier>{bd5ee361-e6eb-44a2-8d69-f0d8c3ef0345}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Framework\Shaders">
+      <UniqueIdentifier>{f3282d2a-afa7-467a-a13e-f7ecb8477cc5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Shader Files\Color">
+      <UniqueIdentifier>{ce04d89f-418d-4931-bc91-bc655143bb56}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Shader Files\Light">
+      <UniqueIdentifier>{073ffc22-8ceb-4a16-bebe-bf01a8fb50d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Shader Files\Texture">
+      <UniqueIdentifier>{74e39043-a12a-4934-8140-8ee9ca2ea100}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Shader Files\Text">
+      <UniqueIdentifier>{550a8cb9-aecc-4de3-a195-bd03bd23f522}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Framework\Models">
+      <UniqueIdentifier>{55d67d8a-6e61-4748-a466-ae6343e3293f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Framework\Models">
+      <UniqueIdentifier>{de27cf58-04a9-4add-b8bb-8af40b636268}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Shader Files\MultiTexture">
+      <UniqueIdentifier>{9ed068f7-fb57-42fe-ac21-0f4f49ceca89}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Framework\Helpers">
+      <UniqueIdentifier>{bf96e85f-3eeb-4a8e-934d-477181e9c5dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Framework\Helpers">
+      <UniqueIdentifier>{13550ec3-4cd8-439d-9280-b6dfd71777cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Shader Files\Terrain">
+      <UniqueIdentifier>{a9241d9a-6a41-4a59-9523-1fba03b49902}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\D3DClass.cpp">
+      <Filter>Source Files\Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\InputClass.cpp">
+      <Filter>Source Files\Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\SystemClass.cpp">
+      <Filter>Source Files\Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Shaders\LightShaderClass.cpp">
+      <Filter>Source Files\Framework\Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Shaders\ColorShaderClass.cpp">
+      <Filter>Source Files\Framework\Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Shaders\TextureShaderClass.cpp">
+      <Filter>Source Files\Framework\Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Shaders\ShaderClass.cpp">
+      <Filter>Source Files\Framework\Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Models\BitmapClass.cpp">
+      <Filter>Source Files\Framework\Models</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Models\CameraClass.cpp">
+      <Filter>Source Files\Framework\Models</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Models\LightClass.cpp">
+      <Filter>Source Files\Framework\Models</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Models\ModelClass.cpp">
+      <Filter>Source Files\Framework\Models</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Models\TextureClass.cpp">
+      <Filter>Source Files\Framework\Models</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Models\FontClass.cpp">
+      <Filter>Source Files\Framework\Models</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Models\TextClass.cpp">
+      <Filter>Source Files\Framework\Models</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\FPSClass.cpp">
+      <Filter>Source Files\Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\CPUClass.cpp">
+      <Filter>Source Files\Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\TimerClass.cpp">
+      <Filter>Source Files\Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\FrustumClass.cpp">
+      <Filter>Source Files\Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\ModelListClass.cpp">
+      <Filter>Source Files\Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\PositionClass.cpp">
+      <Filter>Source Files\Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Shaders\MultiTextureShaderClass.cpp">
+      <Filter>Source Files\Framework\Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Models\TextureArrayClass.cpp">
+      <Filter>Source Files\Framework\Models</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Models\TerrainClass.cpp">
+      <Filter>Source Files\Framework\Models</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\ApplicationClass.cpp">
+      <Filter>Source Files\Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Shaders\FontShaderClass.cpp">
+      <Filter>Source Files\Framework\Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Shaders\ShaderManagerClass.cpp">
+      <Filter>Source Files\Framework\Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\ZoneClass.cpp">
+      <Filter>Source Files\Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Helpers\MathHelperClass.cpp">
+      <Filter>Source Files\Framework\Helpers</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\UIClass.cpp">
+      <Filter>Source Files\Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Helpers\SettingsHelperClass.cpp">
+      <Filter>Source Files\Framework\Helpers</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\TextureManagerClass.cpp">
+      <Filter>Source Files\Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Shaders\TerrainShaderClass.cpp">
+      <Filter>Source Files\Framework\Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Models\TerrainTextureArrayClass.cpp">
+      <Filter>Source Files\Framework\Models</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Framework\D3DClass.h">
+      <Filter>Header Files\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\InputClass.h">
+      <Filter>Header Files\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\SystemClass.h">
+      <Filter>Header Files\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Shaders\LightShaderClass.h">
+      <Filter>Header Files\Framework\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Shaders\ColorShaderClass.h">
+      <Filter>Header Files\Framework\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Shaders\TextureShaderClass.h">
+      <Filter>Header Files\Framework\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Shaders\ShaderClass.h">
+      <Filter>Header Files\Framework\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Models\BitmapClass.h">
+      <Filter>Header Files\Framework\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Models\CameraClass.h">
+      <Filter>Header Files\Framework\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Models\LightClass.h">
+      <Filter>Header Files\Framework\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Models\ModelClass.h">
+      <Filter>Header Files\Framework\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Models\TextureClass.h">
+      <Filter>Header Files\Framework\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Models\FontClass.h">
+      <Filter>Header Files\Framework\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Models\TextClass.h">
+      <Filter>Header Files\Framework\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\FPSClass.h">
+      <Filter>Header Files\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\CPUClass.h">
+      <Filter>Header Files\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\TimerClass.h">
+      <Filter>Header Files\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\FrustumClass.h">
+      <Filter>Header Files\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\ModelListClass.h">
+      <Filter>Header Files\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\PositionClass.h">
+      <Filter>Header Files\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Shaders\MultiTextureShaderClass.h">
+      <Filter>Header Files\Framework\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Models\TextureArrayClass.h">
+      <Filter>Header Files\Framework\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Models\TerrainClass.h">
+      <Filter>Header Files\Framework\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\ApplicationClass.h">
+      <Filter>Header Files\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Shaders\FontShaderClass.h">
+      <Filter>Header Files\Framework\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Shaders\ShaderManagerClass.h">
+      <Filter>Header Files\Framework\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\ZoneClass.h">
+      <Filter>Header Files\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Helpers\MathHelperClass.h">
+      <Filter>Header Files\Framework\Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\UIClass.h">
+      <Filter>Header Files\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Helpers\SettingsHelperClass.h">
+      <Filter>Header Files\Framework\Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\TextureManagerClass.h">
+      <Filter>Header Files\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Shaders\TerrainShaderClass.h">
+      <Filter>Header Files\Framework\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Models\TerrainTextureArrayClass.h">
+      <Filter>Header Files\Framework\Models</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="Resources\Shaders\ColorPixelShader.hlsl">
+      <Filter>Resource Files\Shader Files\Color</Filter>
+    </FxCompile>
+    <FxCompile Include="Resources\Shaders\ColorVertexShader.hlsl">
+      <Filter>Resource Files\Shader Files\Color</Filter>
+    </FxCompile>
+    <FxCompile Include="Resources\Shaders\LightVertexShader.hlsl">
+      <Filter>Resource Files\Shader Files\Light</Filter>
+    </FxCompile>
+    <FxCompile Include="Resources\Shaders\LightPixelShader.hlsl">
+      <Filter>Resource Files\Shader Files\Light</Filter>
+    </FxCompile>
+    <FxCompile Include="Resources\Shaders\TexturePixelShader.hlsl">
+      <Filter>Resource Files\Shader Files\Texture</Filter>
+    </FxCompile>
+    <FxCompile Include="Resources\Shaders\TextureVertexShader.hlsl">
+      <Filter>Resource Files\Shader Files\Texture</Filter>
+    </FxCompile>
+    <FxCompile Include="Resources\Shaders\TextPixelShader.hlsl">
+      <Filter>Resource Files\Shader Files\Text</Filter>
+    </FxCompile>
+    <FxCompile Include="Resources\Shaders\TextVertexShader.hlsl">
+      <Filter>Resource Files\Shader Files\Text</Filter>
+    </FxCompile>
+    <FxCompile Include="Resources\Shaders\MultiTexturePixelShader.hlsl">
+      <Filter>Resource Files\Shader Files\MultiTexture</Filter>
+    </FxCompile>
+    <FxCompile Include="Resources\Shaders\MultiTextureVertexShader.hlsl">
+      <Filter>Resource Files\Shader Files\MultiTexture</Filter>
+    </FxCompile>
+    <FxCompile Include="Resources\Shaders\TerrainPixelShader.hlsl">
+      <Filter>Resource Files\Shader Files\Terrain</Filter>
+    </FxCompile>
+    <FxCompile Include="Resources\Shaders\TerrainVertexShader.hlsl">
+      <Filter>Resource Files\Shader Files\Terrain</Filter>
+    </FxCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Resources\Models\Cube.txt">
+      <Filter>Resource Files\Model Files</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
+  </ItemGroup>
+</Project>
